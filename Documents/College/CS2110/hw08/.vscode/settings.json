@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "winscreen.h": "c",
+        "lossscreen.h": "c"
+    }
+}

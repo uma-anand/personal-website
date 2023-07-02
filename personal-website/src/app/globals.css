@@ -106,6 +106,10 @@ body {
   color: rgb(75, 159, 255);
 }
 
+.white {
+  color: white;
+}
+
 .typed-out h2 {
   margin-left: 15px;
 }

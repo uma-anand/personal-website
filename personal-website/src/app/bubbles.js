@@ -3,7 +3,7 @@ import Bubble2 from "./bubble2";
 import Bubble3 from "./bubble3";
 
 export default function Bubbles() {
-    return (
+    /** 
         <a id = "about-bubbles">
             <div className = "bubbles">
                 <Bubble1 />
@@ -11,5 +11,12 @@ export default function Bubbles() {
                 <Bubble3 />
             </div>
         </a>
+        */
+    return (
+        <>
+            <div className="header-container">
+                <h1 className = "header">SKILLS</h1>
+            </div>
+        </>
     )
 }

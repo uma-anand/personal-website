@@ -3,6 +3,7 @@ export default function Banner() {
       <div className='banner'>
         <h2 id = "title">home</h2>
         <div>
+            <h2>about</h2>
             <h2>projects</h2>
             <h2>resume</h2>
             <h2>contact</h2>

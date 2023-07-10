@@ -1,32 +1,27 @@
 .banner {
   background-color: white;
   color: black;
-  padding: 10px;
+  height: 5vh;
+  padding: 2.5vh;
   margin-left: -10px;
-  margin-right: -8px;
+  margin-right: -5px;
   margin-top: -10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#title {
-  font-weight: bolder;
-}
-
-.banner h2 {
-  display: inline;
-  margin: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 body {
   font-family: monospace;
+  margin: 0px;
 }
 
 .centerhomescreen {
-  height: 95vh;
+  height: 105vh;
   margin-left: -10px;
-  margin-right: -8px;
   margin-top: -10px;
   background-color: black;
   display: flex;
@@ -66,13 +61,6 @@ body {
   border-radius: 50%;
 }
 
-.infoImage {
-  width: 40%;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  z-index: 2;
-}
-
 .arrow {
   position: absolute;
   margin-top: 35%;
@@ -82,29 +70,6 @@ body {
   float: left;
   box-shadow: -4px 4px 0 rgb(255, 255, 255);
   transform: rotate(-45deg);
-}
-
-.infoText {
-  background-color: black;
-  color: white;
-  padding: 30px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 10px 10px rgb(75, 159, 255);
-  transform: translateY(-40px);
-}
-
-.infoBubble {
-  display: flex;
-  flex-direction: column;
-  margin: 40px;
-  width: 25%;
-  align-items: center;
-  transition: transform 0.3s ease;
-}
-
-.infoBubble::hover {
-  transform: translateX(20px);
 }
 
 .blue {
@@ -119,15 +84,41 @@ body {
   margin-left: 15px;
 }
 
-.bubbles {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header {
-  font-size: 30px;
-  font-family: sans-serif;
+  font-size: 23px;
+  font-family: "Montserrat Medium";
   font-weight: 1000;
+  margin: 0px;
+  padding: 20px;
 }
 
+.banner h2 {
+  font-family: 'Montserrat Medium';
+  font-weight: bolder;
+  display: inline;
+  margin: 20px;
+  margin-top: 30px;
+  font-size: smaller;
+  
+}
 
+.white-section-container {
+  background-color: #F8F8F8;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 10px;
+}
+
+.left-side {
+  margin-left: 0%;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.right-side {
+  padding-right: 30px;
+}

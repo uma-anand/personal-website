@@ -1,13 +1,13 @@
 import Banner from "./banner"
 import CenterHome from "./centerHome"
-import Bubbles from "./bubbles"
+import About from "./about"
 
 export default function Home() {
   return (
     <>
       <Banner />
       <CenterHome />
-      <Bubbles/>
+      <About/>
     </>
   )
 }

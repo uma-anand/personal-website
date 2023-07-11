@@ -130,10 +130,7 @@ p {
 .black-section-container {
   background-color: #000000;
   color: white;
-}
-
-#work {
-  transform: translateY(-5px)
+  width: 100%;
 }
 
 .subtitle {
@@ -143,6 +140,9 @@ p {
   padding-left: 20px;
 }
 
+#work {
+  transform: translateY(-10px);
+}
 #work .header {
   padding-bottom: 8px;
 }
@@ -152,7 +152,7 @@ p {
   align-items: center;
   gap: 10px;
   padding: 15px;
-  width: 452px;
+  width: 320px;
   color: black;
   border-radius: 40px;
   font-family: 'Montserrat';
@@ -190,6 +190,7 @@ p {
   margin: 30px;
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 #work {
@@ -206,4 +207,17 @@ p {
   font-family: 'Montserrat';
   font-size: small;
   font-weight: lighter;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-skills {
+  margin-left: 50px;
+  display: flex;
+  gap: 30px;
+  flex-wrap:wrap;
 }

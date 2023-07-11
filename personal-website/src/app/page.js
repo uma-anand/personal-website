@@ -3,6 +3,7 @@ import CenterHome from "./centerHome"
 import About from "./about"
 import Work from "./work"
 import Skills from "./skills"
+import Contact from "./contact"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About/>
       <Work/>
       <Skills/>
+      <Contact/>
     </>
   )
 }

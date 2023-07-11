@@ -220,4 +220,27 @@ p {
   display: flex;
   gap: 30px;
   flex-wrap:wrap;
+  padding-bottom: 10px;
+}
+
+.sub-header {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  margin: 0px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+#contact {
+  padding-bottom: 10px;
+}
+
+#contact-grid {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact-icons {
+  display: flex;
+  gap: 10px;
 }

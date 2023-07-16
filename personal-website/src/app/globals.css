@@ -30,6 +30,39 @@ body {
   color: white;
 }
 
+.landinghome {
+  padding-top: 10%;
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+} 
+
+.landinghome .bubble-container {
+  margin: 0px;
+}
+
+.landinghome .bubble-container .bubble {
+  border-radius: 40px;
+}
+
+.landinghome .bubble-text {
+  font-size: smaller;
+}
+.landinghome .timeline {
+  font-size: x-small;
+}
+
+.landinghome .bubble {
+  min-width: 410px;
+}
+
+.landingheader {
+  font-family: 'Montserrat Medium';
+  font-size: 6em;
+}
+
 .container{
   display: inline-block;
 }
@@ -111,6 +144,7 @@ body {
   gap: 0px;
   padding:0px;
 }
+
 
 .left-side {
   margin-left: 0%;
@@ -243,4 +277,39 @@ p {
 #contact-icons {
   display: flex;
   gap: 10px;
+}
+
+.space-between-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#alphacalc {
+  background-color: #E7EFF6;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#hcms {
+  background-color: #FEFBE2;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#personal-website {
+  background-color: #EBFAFF;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#better-pokeapi {
+  background-color: #e3e3e3;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#animal-training {
+  background-color: #e8f4e8;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#lights-out {
+  background-color: #deeaf2;
+  box-shadow: inset 0 0 10px #000000;
 }

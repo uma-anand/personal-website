@@ -4,16 +4,23 @@ import About from "./about"
 import Work from "./work"
 import Skills from "./skills"
 import Contact from "./contact"
+import LandingProjects from "./landingProjects"
 
 export default function Home() {
-  return (
-    <>
+  /**
+   * <>
       <Banner />
       <CenterHome />
       <About/>
       <Work/>
       <Skills/>
       <Contact/>
+    </>
+   */
+  return (
+    <>
+      <Banner />
+      <LandingProjects />
     </>
   )
 }

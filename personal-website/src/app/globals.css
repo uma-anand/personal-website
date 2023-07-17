@@ -386,3 +386,8 @@ ul {
 .green {
   color: green;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

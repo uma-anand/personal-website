@@ -5,6 +5,7 @@ import Work from "./work"
 import Skills from "./skills"
 import Contact from "./contact"
 import LandingProjects from "./landingProjects"
+import AlphaCalc from "./projects/alphacalc"
 
 export default function Home() {
   /**
@@ -21,6 +22,7 @@ export default function Home() {
     <>
       <Banner />
       <LandingProjects />
+      <AlphaCalc />
     </>
   )
 }

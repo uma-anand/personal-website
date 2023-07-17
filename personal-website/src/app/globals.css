@@ -356,7 +356,7 @@ p {
   background-color: #c6e4ff;
   flex-grow: 1;
   padding-left: 25px;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 .project-points {
@@ -373,4 +373,16 @@ ul {
   background-color: #000000;
   color: white;
   padding: 5px;
+}
+
+.yellow {
+  color: #cfbb00;
+}
+
+.gray {
+  color: #676767;
+}
+
+.green {
+  color: green;
 }

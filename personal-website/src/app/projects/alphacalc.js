@@ -1,6 +1,8 @@
 export default function AlphaCalc () {
     return (
         <>
+            <div id = "AlphaCalc"></div>
+            <br></br><br></br><br></br>
             <div className="projects-flex">
                 <div className="projects-flex-left">
                     <div className="projects-header">

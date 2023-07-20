@@ -99,10 +99,7 @@ body {
   margin-top: 35%;
   width: 30px;
   height: 30px;
-  transition: .5s;
   float: left;
-  box-shadow: -4px 4px 0 rgb(255, 255, 255);
-  transform: rotate(-45deg);
 }
 
 .blue {

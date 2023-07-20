@@ -13,19 +13,13 @@ export default function Home() {
     <>
       <Banner />
       <LandingProjects />
-      <br></br>
       <AlphaCalc />
-      <br></br>
       <HCMS />
-      <br></br>
       <PersonalWebsite />
-      <br></br>
       <BetterPokeAPI />
-      <br></br>
       <AnimalTraining />
-      <br></br>
       <LightsOut />
-      <br></br>
+      <br></br><br></br><br></br>
       <Contact />
     </>
   )

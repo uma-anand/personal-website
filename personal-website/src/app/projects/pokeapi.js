@@ -1,6 +1,8 @@
 export default function BetterPokeAPI () {
     return (
         <>
+            <div id = "BetterPokeAPI"></div>
+            <br></br><br></br><br></br>
             <div className="projects-flex">
                 <div className="projects-flex-right" style={{"background-color": "#E3E3E3"}}>
                     <h3>

@@ -1,6 +1,8 @@
 export default function AnimalTraining () {
     return (
         <>
+            <div id = "AnimalTrainingPortal"></div>
+            <br></br><br></br><br></br>
             <div className="projects-flex">
                 <div className="projects-flex-left">
                     <div className="projects-header" style={{"background-color": "#CDEFC7"}}>

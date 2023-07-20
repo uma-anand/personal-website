@@ -4,7 +4,7 @@ export default function Work() {
         <div className="black-section-container" id = "work">
             <h1 className = "header">My experience...</h1>
             <div className="bubble-container">
-                <div className="bubble" id="bits-of-good">
+                <div className="bubble" id="bits-of-good" suppressHydrationWarning>
                     <div className="bubble-pic">
                         <img src = "/bog.svg" />
                     </div>
@@ -15,7 +15,7 @@ export default function Work() {
                         </h3>
                     </div>
                 </div>
-                <div className="bubble" id="lockheed">
+                <div className="bubble" id="lockheed" suppressHydrationWarning>
                     <div className="bubble-pic">
                         <img src = "/lockheed.svg" />
                     </div>
@@ -26,7 +26,7 @@ export default function Work() {
                         </h3>
                     </div>
                 </div>
-                <div className="bubble" id="ltt">
+                <div className="bubble" id="ltt" suppressHydrationWarning>
                     <div className="bubble-pic">
                         <img src = "/ltt.svg" />
                     </div>

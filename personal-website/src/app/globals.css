@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .banner {
   background-color: white;
   color: black;
@@ -198,21 +202,25 @@ p {
 }
 
 #bits-of-good {
+  animation: fadeIn 15s;
   background-color: #F6F0E0;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #lockheed {
+  animation: fadeIn 17s;
   background-color: #CED7E2;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #ltt {
+  animation: fadeIn 19s;
   background-color: #CECECE;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #tfi {
+  animation: fadeIn 21s;
   background-color: #F4DDDB;
   box-shadow: inset 0 0 10px #000000;
 }
@@ -247,6 +255,7 @@ p {
 }
 
 .all-skills {
+  animation: fadeIn 25s;
   margin-left: 50px;
   display: flex;
   gap: 30px;
@@ -282,31 +291,37 @@ p {
 }
 
 #alphacalc {
+  animation: fadeIn 5s;
   background-color: #E7EFF6;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #hcms {
+  animation: fadeIn 8s;
   background-color: #FEFBE2;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #personal-website {
+  animation: fadeIn 11s;
   background-color: #EBFAFF;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #better-pokeapi {
+  animation: fadeIn 14s;
   background-color: #e3e3e3;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #animal-training {
+  animation: fadeIn 17s;
   background-color: #e8f4e8;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #lights-out {
+  animation: fadeIn 20s;
   background-color: #deeaf2;
   box-shadow: inset 0 0 10px #000000;
 }
@@ -388,3 +403,17 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+#about-pic {
+  animation: fadeIn 5s;
+}
+
+#about-text {
+  animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+

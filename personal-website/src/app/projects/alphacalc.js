@@ -10,7 +10,7 @@ export default function AlphaCalc () {
                         <h2>Python, MySQL</h2>
                         <h4>Sep 2021 - Feb 2022</h4>
                         <br></br>
-                        <h4><span className = "github-button">GitHub &gt;</span></h4>
+                        <h4><a target="#" href = "https://github.com/hak-uma-matata/AlphaCalc"><span className = "github-button">GitHub &gt;</span></a></h4>
                         <br></br>
                     </div>
                     <div className="project-points">

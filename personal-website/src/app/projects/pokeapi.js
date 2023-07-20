@@ -25,7 +25,7 @@ Being my first big web-dev project, I stumbled a bit along the way but it refine
                         <h2>Next.js, JavaScript, HTML, CSS</h2>
                         <h4>Jan 2023 - Feb 2023</h4>
                         <br></br>
-                        <h4><span className = "github-button">GitHub &gt;</span></h4>
+                        <h4><a target="#" href="https://github.com/hak-uma-matata/mod-pokeapi-s23"><span className = "github-button">GitHub &gt;</span></a></h4>
                         <br></br>
                     </div>
                     <div className="project-points">

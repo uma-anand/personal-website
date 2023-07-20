@@ -10,7 +10,7 @@ export default function AnimalTraining () {
                         <h2>MongoDB, JavaScript, HTML, CSS, React, Next.js</h2>
                         <h4>Mar 2023 - Apr 2023</h4>
                         <br></br>
-                        <h4><span className = "github-button">GitHub &gt;</span></h4>
+                        <h4><a target="#" href="https://github.com/BoG-Dev-Bootcamp/project2-pineapple"><span className = "github-button">GitHub &gt;</span></a></h4>
                         <br></br>
                     </div>
                     <div className="project-points">

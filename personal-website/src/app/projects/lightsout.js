@@ -24,8 +24,6 @@ This was my first experience with using a low-level programming language like C 
                         <h2>C, GBA</h2>
                         <h4>Mar 2023</h4>
                         <br></br>
-                        <h4><span className = "github-button">GitHub &gt;</span></h4>
-                        <br></br>
                     </div>
                     <div className="project-points">
                         <h4>

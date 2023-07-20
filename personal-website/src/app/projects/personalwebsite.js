@@ -10,7 +10,7 @@ export default function PersonalWebsite () {
                         <h2>React, JavaScript, HTML, CSS, Next.js</h2>
                         <h4>Jun 2023 - Present</h4>
                         <br></br>
-                        <h4><span className = "github-button">GitHub &gt;</span></h4>
+                        <h4><a target="#" href="https://github.com/hak-uma-matata/personal-website/"><span className = "github-button">GitHub &gt;</span></a></h4>
                         <br></br>
                     </div>
                     <div className="project-points">

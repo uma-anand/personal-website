@@ -137,12 +137,13 @@ body {
 }
 
 .white-section-container {
+  width: 100%;
   background-color: #F8F8F8;
 }
 
 .side-by-side {
   display: flex;
-  gap: 0px;
+  gap: 10px;
   padding:0px;
 }
 
@@ -151,6 +152,7 @@ body {
   margin-left: 0%;
   margin-bottom: 0%;
   padding: 0px;
+  float: left;
 }
 
 p {
@@ -173,10 +175,6 @@ p {
   font-family: "Montserrat Regular";
   margin: 0px;
   padding-left: 20px;
-}
-
-#work {
-  transform: translateY(-10px);
 }
 #work .header {
   padding-bottom: 8px;
@@ -405,11 +403,17 @@ a {
 }
 
 #about-pic {
+  float: bottom;
   animation: fadeIn 5s;
+  margin-bottom: 0px;
 }
 
 #about-text {
   animation: fadeIn 8s;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 35px;
+  padding-bottom: 30px;
 }
 
 @keyframes fadeIn {

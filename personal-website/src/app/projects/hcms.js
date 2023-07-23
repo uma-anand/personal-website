@@ -3,7 +3,7 @@ export default function HCMS () {
         <>
             <div id = "HCMSTool"></div>
             <br></br><br></br><br></br>
-            <div className="projects-flex">
+            <div className="projects-flex" id="align-right">
                 <div className="projects-flex-right" style={{"background-color": "#FEFBE2"}}>
                     <h3>
                     During my internship at Lockheed Martin, I was assigned to work on the <span className="yellow">HCMS Tool</span>- a web application that kept track of hardware and software at <span className="yellow">Lockheed Martin</span> used in the F35 Fighter Jet.

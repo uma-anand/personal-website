@@ -8,7 +8,7 @@ html {
   height: 5vh;
   padding: 2.5vh;
   margin-left: -10px;
-  margin-right: -5px;
+  margin-right: -10px;
   margin-top: -10px;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@ body {
 }
 
 .landinghome {
-  padding-top: 10%;
+  padding-top: 9%;
   background-color: black;
   color: white;
   padding-left: 5%;
@@ -58,13 +58,9 @@ body {
   font-size: x-small;
 }
 
-.landinghome .bubble {
-  min-width: 410px;
-}
-
 .landingheader {
   font-family: 'Montserrat Medium';
-  font-size: 6em;
+  font-size: 5em;
 }
 
 .container{
@@ -137,12 +133,13 @@ body {
 }
 
 .white-section-container {
+  width: 100%;
   background-color: #F8F8F8;
 }
 
 .side-by-side {
   display: flex;
-  gap: 0px;
+  gap: 10px;
   padding:0px;
 }
 
@@ -151,6 +148,7 @@ body {
   margin-left: 0%;
   margin-bottom: 0%;
   padding: 0px;
+  float: left;
 }
 
 p {
@@ -173,10 +171,6 @@ p {
   font-family: "Montserrat Regular";
   margin: 0px;
   padding-left: 20px;
-}
-
-#work {
-  transform: translateY(-10px);
 }
 #work .header {
   padding-bottom: 8px;
@@ -287,7 +281,9 @@ p {
 
 .space-between-flex {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
 }
 
 #alphacalc {
@@ -332,6 +328,7 @@ p {
 
 .projects-flex-left {
   width: 40%;
+  min-width: 300px;
   font-family: 'Montserrat';
   display: flex;
   flex-direction: column;
@@ -377,6 +374,27 @@ p {
   padding:25px;
 }
 
+@media screen and (max-width: 768px) {
+  .projects-flex {
+    flex-wrap: wrap;
+  }
+  .projects-flex-left {
+    width: 100%;
+  }
+  .projects-flex-right {
+    width: 100%;
+  }
+  #align-right {
+    flex-wrap: wrap-reverse;
+  }
+  .right-space {
+    display: none;
+  }
+  .landinghome {
+    padding-top: 70px;
+  }
+}
+
 ul {
   margin-top: 0;
 }
@@ -405,11 +423,17 @@ a {
 }
 
 #about-pic {
+  float: bottom;
   animation: fadeIn 5s;
+  margin-bottom: 0px;
 }
 
 #about-text {
   animation: fadeIn 8s;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 35px;
+  padding-bottom: 30px;
 }
 
 @keyframes fadeIn {

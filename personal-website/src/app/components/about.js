@@ -5,16 +5,7 @@ export default function About() {
         <>
             <div className="white-section-container" >
                 <h1 className = "header">A bit about me...</h1>
-                <div className="side-by-side">
-                    <div className="left-side" id = "about-pic">
-                        <Image
-                        src="/image 9.jpg"
-                        width={421}
-                        height={379}
-                        alt="Picture of the author"
-                        />
-                    </div>
-                    <div className="right-side" id = "about-text">
+                    <div id = "about-text">
                         <p>
                         I’m a highly motivated <span className="blue">fullstack software developer</span> currently pursuing my undergraduate degree
                         in <span className="blue">computer science</span> at the <span className="blue">Georgia Institute of Technology</span> with concentrations in 
@@ -31,8 +22,8 @@ export default function About() {
                         I’m also a big reader, and have made it my mission to finish all the books on Times’ <span className="blue">100 Greatest Books of All Time</span> (I’ve finished around 40 so far!).
                         </p>
                     </div>
+                    <div style={{"clear": "both"}}></div>
                 </div>
-            </div>
         </>
     )
 }

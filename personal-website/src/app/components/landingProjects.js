@@ -3,10 +3,10 @@ export default function LandingProjects() {
        <div className="landinghome">
             <div className="space-between-flex">
                 <div className="left-space">
-                    <h1 className="landingheader">My <br></br> Projects...</h1>
+                    <h1 className="landingheader">My <br></br> Projects</h1>
                 </div>
                 <div className="right-space">
-                    <img src = '/projectscomp.svg' height = '298.4' width = '382.4'></img>
+                    <img src = '/projectscomp.svg' height = '200'></img>
                 </div>
             </div>
             <h3>Click each widget for more information about the project...</h3>
@@ -71,7 +71,7 @@ export default function LandingProjects() {
                         </div>
                         <div className="bubble-text">
                             <h3>Animal Training Portal<br></br>
-                            <span className = "position">MongoDB, JavaScript, HTML, CSS, Next.js</span> <br></br>
+                            <span className = "position">MongoDB, JavaScript, HTML, CSS</span> <br></br>
                             <span className = "timeline">Jan 2023 - Feb 2023</span>
                             </h3>
                         </div>

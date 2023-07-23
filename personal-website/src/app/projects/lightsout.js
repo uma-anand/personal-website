@@ -3,7 +3,7 @@ export default function LightsOut () {
         <>
             <div id = "LightsOut"></div>
             <br></br><br></br><br></br>
-            <div className="projects-flex">
+            <div className="projects-flex" id="align-right">
                 <div className="projects-flex-right" style={{"background-color": "#DEEAF2"}}>
                     <h3>
                     The goal for this project was to write a complete game for a <span className="blue">Game Boy Advanced emulator (GBA)</span> for my computer organization class. The GBA being a very rudimentary, slow, and <span className="blue">limited hardware</span> device, it was very slow and we had to learn to <span className="blue">optimize performance</span> using tricks such as <span className="blue">DMA</span> and using integer arithmetic instead of floating point arithmetic.

@@ -3,7 +3,7 @@ export default function BetterPokeAPI () {
         <>
             <div id = "BetterPokeAPI"></div>
             <br></br><br></br><br></br>
-            <div className="projects-flex">
+            <div className="projects-flex" id="align-right">
                 <div className="projects-flex-right" style={{"background-color": "#E3E3E3"}}>
                     <h3>
                     When I was a child, my main occupation was watching my older brother do whatever he was doing, like most younger siblings. So, when my brother went through a 10 year long Pokemon phase, I entered it with him. We had the complete Pokemon books for Pokemon Black and White and Pokemon X & Y. One summer, I even learned the name and the type of every Pokemon in Black and White. But slowly, as my brother went to college, and I started to have other things to do than follow him around, I lost touch with the world of Pokemon.

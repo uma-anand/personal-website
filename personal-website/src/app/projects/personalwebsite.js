@@ -8,7 +8,7 @@ export default function PersonalWebsite () {
                     <div className="projects-header" style={{"background-color": "#C3F2FF"}}>
                         <h1>Personal<br></br>Website</h1>
                         <h2>React, JavaScript, HTML, CSS, Next.js</h2>
-                        <h4>Jun 2023 - Present</h4>
+                        <h4>Jun 2023 - Jul 2023</h4>
                         <br></br>
                         <h4><a target="#" href="https://github.com/hak-uma-matata/personal-website/"><span className = "github-button">GitHub &gt;</span></a></h4>
                         <br></br>

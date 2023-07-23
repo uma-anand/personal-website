@@ -22,7 +22,7 @@ export default function Work() {
                     <div className="bubble-text">
                         <h3>Lockheed Martin <br></br>
                         <span className = "position">Software Engineer Intern</span> <br></br>
-                        <span className = "timeline">May 2023 - Aug 2023</span>
+                        <span className = "timeline">May 2023 - Jun 2023</span>
                         </h3>
                     </div>
                 </div>

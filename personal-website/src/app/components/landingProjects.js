@@ -33,7 +33,7 @@ export default function LandingProjects() {
                         <div className="bubble-text">
                             <h3>HCMS Tool<br></br>
                             <span className = "position">JavaScript, React, HTML, CSS, MySQL</span> <br></br>
-                            <span className = "timeline">May 2023 - Aug 2023</span>
+                            <span className = "timeline">May 2023 - Jun 2023</span>
                             </h3>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function LandingProjects() {
                         <div className="bubble-text">
                             <h3>Personal Website<br></br>
                             <span className = "position">React, JavaScript, HTML, CSS, Next.js</span> <br></br>
-                            <span className = "timeline">Jun 2023 - Present</span>
+                            <span className = "timeline">Jun 2023 - Jul 2023</span>
                             </h3>
                         </div>
                     </div>

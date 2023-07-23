@@ -18,10 +18,12 @@ export default function About() {
                         <p>
                         I’m a highly motivated <span className="blue">fullstack software developer</span> currently pursuing my undergraduate degree
                         in <span className="blue">computer science</span> at the <span className="blue">Georgia Institute of Technology</span> with concentrations in 
-                        <span className="blue"> Systems & Architecture</span> and <span className="blue">Information Internetworks</span>... 
-                        but you could learn more about my technical experience through my Skills, Projects, or Resume. Here are some other things about me.
+                        <span className="blue"> Systems & Architecture</span> and <span className="blue">Information Internetworks</span>. 
+                        I am always looking to bolster my understanding and knowledge of computer science whether it is through working for companies such
+                        as <span className="blue">Lockheed Martin</span>, joining computing clubs and participating in hackathons, or 
+                        developing several varied projects of my own choosing.
                         <br></br><br></br>
-                        I go the extra mile to learn, from self studying all my APs to trying a new course on Khan Academy every summer. I devote all my energy into what I am doing and 
+                        I go the extra mile to learn, from self studying all my APs in high school to trying a new course on Khan Academy every summer. I devote all my energy into what I am doing and 
                         love collaborating with people, constantly learning, and experiencing something new everyday!
                         <br></br><br></br>
                         In my free time, I spend a lot of time on various clubs and activities on campus including <span className="blue">Bits Of Good</span>, a 

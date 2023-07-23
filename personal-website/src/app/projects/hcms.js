@@ -10,7 +10,7 @@ export default function HCMS () {
 <br></br><br></br>
 One of the tasks I worked on was <span className="yellow">Password Security</span>- a problem I had found and decided to solve of my own accord. I had found a problem in the way a user’s password was stored, making it very vulnerable. To fix this, I initially thought of using a hashing library and hashing the passwords with a salt before storing them.
 <br></br><br></br>
-However, when I started the implementation, it became clear that this would not be possible. The way hashing works is that it hashes the actual password and checks if it corresponds to the supplied hash. The way the application was designed however, meant that there was no comparison. Rather, to check if the password was right, the server tried using it to establish a connection to the database. As there was no comparison involved, I had to find another solution.
+However, when I started the implementation, it became clear that this would not be possible. The way hashing works is that it hashes the actual password and checks if it corresponds to the supplied hash. The way the application was designed, however, meant that there was no comparison. Rather, to check if the password was right, the server tried using it to establish a connection to the database. As there was no comparison involved, I had to find another solution.
 <br></br><br></br>
 The nature of the server meant that I had to be able to encrypt the raw password when sent from the UI to the server and decrypt it in the server before testing the connection with the database. Revisiting every introductory cryptography course’s favorite form of encryption, I decided to <span className="yellow">implement RSA</span>. However, I had to make sure that at no point was the private key exposed. This posed another challenge as the only encryption library that Lockheed Martin allowed on their systems generated unique keys that could not be replicated given the same seed. So if I wanted to encrypt it on the interface side, to get the private key to the server to decrypt, I would have to expose the private key.
 <br></br><br></br>
@@ -23,7 +23,7 @@ Password security was the second task I tackled after coming to Lockheed and def
                     <div className="projects-header" style={{"background-color": "#FFF181"}}>
                         <h1>HCMS Tool</h1>
                         <h2>JavaScript, React, HTML, CSS, MySQL</h2>
-                        <h4>May 2023 - Aug 2023</h4>
+                        <h4>May 2023 - Jun 2023</h4>
                         <br></br>
                     </div>
                     <div className="project-points">
@@ -32,7 +32,7 @@ Password security was the second task I tackled after coming to Lockheed and def
                                 <ul>
                                     <li>Tool to keep track of incoming, existing, and archived hardware and software in Lockheed Martin</li>
                                 </ul>
-                            <strong>Key Features:</strong>
+                            <strong>Key Features I implemented:</strong>
                                 <ul>
                                     <li>Password Security using two way RSA encryption</li>
                                     <li>Permission restricted notes feature with full CRUD functionality</li>

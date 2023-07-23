@@ -16,6 +16,8 @@ html {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1000;
+  will-change: transform;
 }
 
 body {
@@ -59,7 +61,7 @@ body {
 }
 
 .landingheader {
-  font-family: 'Montserrat Medium';
+  font-family: "Montserrat Medium", ;
   font-size: 5em;
 }
 

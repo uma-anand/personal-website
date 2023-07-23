@@ -341,7 +341,7 @@ p {
 }
 
 .projects-flex-left h1 {
-  font-family: 'Montserrat Medium';
+  font-family: 'Montserrat';
   font-size: 3em;
   font-weight: 700;
   margin-bottom: 15px;
@@ -350,6 +350,10 @@ p {
 .projects-flex-left h4 {
   font-weight: lighter;
   margin: 0;
+}
+
+.projects-flex-left h2 {
+  font-weight: lighter;
 }
 
 .projects-flex-right {

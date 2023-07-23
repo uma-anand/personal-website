@@ -18,7 +18,7 @@ export default function LandingProjects() {
                             <img src = "/python.svg" height="67px" width="67px"/>
                         </div>
                         <div className="bubble-text">
-                            <h3>AlphaCalc- A Verbal Calculator<br></br>
+                            <h3>AlphaCalc<br></br>
                             <span className = "position">Python, MySQL</span> <br></br>
                             <span className = "timeline">Sep 2021 - Feb 2022</span>
                             </h3>

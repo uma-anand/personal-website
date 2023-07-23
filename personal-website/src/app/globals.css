@@ -115,14 +115,14 @@ body {
 
 .header {
   font-size: 23px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin: 0px;
   padding: 20px;
 }
 
 .banner h2 {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   display: inline;
   margin: 20px;
@@ -168,7 +168,7 @@ p {
 
 .subtitle {
   font-size: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
   padding-left: 20px;
 }
@@ -184,7 +184,7 @@ p {
   width: 320px;
   color: black;
   border-radius: 40px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bubble-text {
@@ -192,7 +192,7 @@ p {
 }
 
 .bubble-text h3 {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 #bits-of-good {
@@ -231,13 +231,13 @@ p {
 }
 
 .position {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: smaller;
   font-weight: lighter;
 }
 
 .timeline {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: small;
   font-weight: lighter;
 }
@@ -264,7 +264,7 @@ p {
 }
 
 .sub-header {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   margin: 0px;
   padding-bottom: 30px;
@@ -335,13 +335,13 @@ p {
 .projects-flex-left {
   width: 40%;
   min-width: 300px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .projects-flex-left h1 {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   font-weight: 700;
   margin-bottom: 15px;

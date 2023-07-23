@@ -8,7 +8,7 @@ export default function CenterHome () {
                 </div>
             </div>
             <br></br>
-            <div className="arrow" id = "about"><a href="#about"><img src="/down-arrow.svg" height='50'></img></a></div>
+            <div className="arrow"><a href="#about"><img src="/down-arrow.svg" height='50'></img></a></div>
 
         </div>
     )

@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function About() {
     return (
         <>
-            <div className="white-section-container" >
+            <div className="white-section-container" id="about" >
                 <h1 className = "header">A bit about me...</h1>
                     <div id = "about-text">
                         <p>

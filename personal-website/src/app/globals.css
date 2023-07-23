@@ -393,6 +393,9 @@ p {
   .landinghome {
     padding-top: 70px;
   }
+  .homeImage {
+    display: none;
+  }
 }
 
 ul {

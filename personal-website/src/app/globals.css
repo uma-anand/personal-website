@@ -406,6 +406,9 @@ p {
   .homeImage {
     display: none;
   }
+  .projects-flex-right h3 {
+    font-size: 15px;
+  }
 }
 
 ul {

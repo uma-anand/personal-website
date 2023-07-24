@@ -1,7 +1,6 @@
 export default function CenterHome () {
     return (
-        <div className="centerhomescreen">
-            <img className = "homeImage" src = "image 9.jpg" />
+        <div className="centerhomescreen"> 
             <div className = "container">
                 <div className = "typed-out">
                     <h2>hi, i'm uma.</h2>

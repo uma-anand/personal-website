@@ -12,19 +12,6 @@ export default function LandingProjects() {
             <h3>Click each widget for more information about the project...</h3>
             
             <div className="bubble-container">
-                <a href="#AlphaCalc">
-                    <div className="bubble" id="alphacalc">
-                        <div className="bubble-pic">
-                            <img src = "/python.svg" height="67px" width="67px"/>
-                        </div>
-                        <div className="bubble-text">
-                            <h3>AlphaCalc<br></br>
-                            <span className = "position">Python, MySQL</span> <br></br>
-                            <span className = "timeline">Sep 2021 - Feb 2022</span>
-                            </h3>
-                        </div>
-                    </div>
-                </a>
                 <a href="#HCMSTool">
                     <div className="bubble" id="hcms">
                         <div className="bubble-pic">
@@ -51,15 +38,15 @@ export default function LandingProjects() {
                         </div>
                     </div>
                 </a>
-                <a href="#BetterPokeAPI">
-                    <div className="bubble" id="better-pokeapi">
+                <a href="#AlphaCalc">
+                    <div className="bubble" id="alphacalc">
                         <div className="bubble-pic">
-                            <img src = "/nextjs.svg" height="67px" width="67px"/>
+                            <img src = "/python.svg" height="67px" width="67px"/>
                         </div>
                         <div className="bubble-text">
-                            <h3>Better PokeAPI<br></br>
-                            <span className = "position">Next.js, JavaScript, HTML, CSS</span> <br></br>
-                            <span className = "timeline">Jan 2023 - Feb 2023</span>
+                            <h3>AlphaCalc<br></br>
+                            <span className = "position">Python, MySQL</span> <br></br>
+                            <span className = "timeline">Sep 2021 - Feb 2022</span>
                             </h3>
                         </div>
                     </div>
@@ -72,6 +59,19 @@ export default function LandingProjects() {
                         <div className="bubble-text">
                             <h3>Animal Training Portal<br></br>
                             <span className = "position">MongoDB, JavaScript, HTML, CSS</span> <br></br>
+                            <span className = "timeline">Jan 2023 - Feb 2023</span>
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="#BetterPokeAPI">
+                    <div className="bubble" id="better-pokeapi">
+                        <div className="bubble-pic">
+                            <img src = "/nextjs.svg" height="67px" width="67px"/>
+                        </div>
+                        <div className="bubble-text">
+                            <h3>Better PokeAPI<br></br>
+                            <span className = "position">Next.js, JavaScript, HTML, CSS</span> <br></br>
                             <span className = "timeline">Jan 2023 - Feb 2023</span>
                             </h3>
                         </div>

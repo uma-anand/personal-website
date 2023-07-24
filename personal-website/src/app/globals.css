@@ -293,31 +293,31 @@ p {
 }
 
 #alphacalc {
-  animation: fadeIn 5s;
+  animation: fadeIn 11s;
   background-color: #E7EFF6;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #hcms {
-  animation: fadeIn 8s;
+  animation: fadeIn 5s;
   background-color: #FEFBE2;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #personal-website {
-  animation: fadeIn 11s;
+  animation: fadeIn 8s;
   background-color: #EBFAFF;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #better-pokeapi {
-  animation: fadeIn 14s;
+  animation: fadeIn 17s;
   background-color: #e3e3e3;
   box-shadow: inset 0 0 10px #000000;
 }
 
 #animal-training {
-  animation: fadeIn 17s;
+  animation: fadeIn 14s;
   background-color: #e8f4e8;
   box-shadow: inset 0 0 10px #000000;
 }

@@ -472,6 +472,21 @@ a {
     padding-left: 20px;
     padding-top: 0px;
   }
+  #contact-grid {
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  #contact-grid .sub-header {
+    display: none;
+  }
+  #contact {
+    padding: 20px;
+  }
+  #contact-icons {
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 360px) {

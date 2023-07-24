@@ -181,7 +181,7 @@ p {
   align-items: center;
   gap: 10px;
   padding: 15px;
-  width: 320px;
+  width: 380px;
   color: black;
   border-radius: 40px;
   font-family: 'Montserrat';
@@ -220,7 +220,7 @@ p {
 }
 
 .bubble-container {
-  margin: 30px;
+  margin: 3%;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -408,6 +408,18 @@ p {
   }
   .projects-flex-right h3 {
     font-size: 15px;
+  }
+  .bubble {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bubble {
+    width: 305px;
+  }
+  .landingheader {
+    font-size: 4.5em;
   }
 }
 

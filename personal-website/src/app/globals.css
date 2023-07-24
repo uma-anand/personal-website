@@ -181,10 +181,14 @@ p {
   align-items: center;
   gap: 10px;
   padding: 15px;
-  width: 320px;
+  min-width: 310px;
   color: black;
   border-radius: 40px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.landinghome .bubble {
+  width: 380px;
 }
 
 .bubble-text {
@@ -220,7 +224,7 @@ p {
 }
 
 .bubble-container {
-  margin: 30px;
+  margin: 3%;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -384,29 +388,7 @@ p {
   padding:25px;
 }
 
-@media screen and (max-width: 768px) {
-  .projects-flex {
-    flex-wrap: wrap;
-  }
-  .projects-flex-left {
-    width: 100%;
-  }
-  .projects-flex-right {
-    width: 100%;
-  }
-  #align-right {
-    flex-wrap: wrap-reverse;
-  }
-  .right-space {
-    display: none;
-  }
-  .landinghome {
-    padding-top: 70px;
-  }
-  .homeImage {
-    display: none;
-  }
-}
+
 
 ul {
   margin-top: 0;
@@ -454,3 +436,64 @@ a {
   100% { opacity: 1; }
 }
 
+@media screen and (max-width: 768px) {
+  .projects-flex {
+    flex-wrap: wrap;
+  }
+  .projects-flex-left {
+    width: 100%;
+  }
+  .projects-flex-right {
+    width: 100%;
+  }
+  #align-right {
+    flex-wrap: wrap-reverse;
+  }
+  .right-space {
+    display: none;
+  }
+  .landinghome {
+    padding-top: 70px;
+  }
+  .homeImage {
+    display: none;
+  }
+  .projects-flex-right h3 {
+    font-size: 15px;
+  }
+  .landinghome .bubble {
+    width: 320px;
+  }
+  .landinghome {
+    padding-left: 4%;
+  }
+  #about-text {
+    font-size: 11px;
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  #contact-grid {
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  #contact-grid .sub-header {
+    display: none;
+  }
+  #contact {
+    padding: 20px;
+  }
+  #contact-icons {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .landinghome .bubble {
+    width: 250px;
+  }
+  .landingheader {
+    font-size: 4.5em;
+  }
+}

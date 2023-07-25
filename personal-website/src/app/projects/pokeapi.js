@@ -6,7 +6,7 @@ export default function BetterPokeAPI () {
             <div className="projects-flex">
                 <div className="projects-flex-left">
                     <div className="projects-header" style={{"background-color": "#AEAEAE"}}>
-                        <h1>Better PokeAPI</h1>
+                        <h1>Better <br></br>PokeAPI</h1>
                         <h2>Next.js, JavaScript, HTML, CSS</h2>
                         <h4>Jan 2023 - Feb 2023</h4>
                         <br></br>
